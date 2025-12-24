@@ -1,0 +1,24 @@
+{
+  "folders": [
+    { "name": "root", "path": "." },
+    { "name": "IsaacLab", "path": "IsaacLab" },
+    { "name": "unitree_rl_lab", "path": "unitree_rl_lab" }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/home/yang/miniconda3/envs/isaaclab_2.3/bin/python",
+    "python.terminal.activateEnvironment": true,
+
+    "python.analysis.extraPaths": [
+      "${workspaceFolder:IsaacLab}/source",
+      "${workspaceFolder:IsaacLab}/source/isaaclab",
+      "${workspaceFolder:IsaacLab}/source/isaaclab_tasks",
+      "${workspaceFolder:IsaacLab}/source/isaaclab_assets",
+      "${workspaceFolder:IsaacLab}/source/isaaclab_mimic",
+      "${workspaceFolder:IsaacLab}/source/isaaclab_rl"
+    ],
+
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.indexing": true
+  }
+}
+
